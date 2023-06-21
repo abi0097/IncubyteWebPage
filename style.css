@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(35, 35, 204);
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.bg-white {
+  background-color: #fff !important;
+  padding: 10px 40px;
+}
+.navbar-light .navbar-text a {
+  color: rgb(45, 45, 226) !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.landing-section h1 {
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+.landing-section p {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+.landing-section img {
+  padding-left: 22%;
+}
+
+.img-content {
+  background-image: url("landingpage/Ellipse\ 1.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+.landing-section {
+  background: url("/landingpage/bg-1.png");
+  max-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about-content {
+  background-image: url("/landingpage/Rectangle\ 8.png");
+  padding: 50px 80px;
+}
+.about-content h3 {
+  color: #fff;
+  font-size: 32px;
+}
+.about-content p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+}
+.our-expertise {
+  background-color: rgb(224, 237, 241);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.our-expertise h2 {
+  color: blue;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.card-box {
+  background-color: lightskyblue;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 20px 45px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px lightgray;
+}
+.card-box h6 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.card-box p {
+  text-align: left;
+  font-size: 18px;
+}
+.success-stories {
+  background-image: url("/landingpage/Ellipse\ 2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: blue;
+  padding: 4rem 18rem;
+}
+.success-stories h3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.success-stories p {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+.ready {
+  padding: 50px;
+  background-color: lightblue;
+}
+button {
+  color: #fff;
+  background-color: rgb(35, 35, 204);
+  padding: 15px 30px;
+  border-radius: 8px;
+  border-color: rgb(35, 35, 204);
+}
+.copyright {
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-section img {
+    padding-left: 0;
+    width: 90%;
+  }
+  .landing-section h1 {
+    font-size: 36px;
+  }
+  .about-content {
+    padding: 20px 15px;
+  }
+  .about-content p {
+    font-size: 16px;
+  }
+  .success-stories {
+    padding: 2rem;
+  }
+}
